@@ -1,0 +1,349 @@
+@media(max-width: 3000px) {}
+
+.sub_visual_building {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 275px;
+    color: #fff;
+    text-align: center;
+    background: url(/public/img/promote-mainimg.jpg) no-repeat center top;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.page_tit_wrap {
+    display: table-cell;
+}
+
+.landmark {
+    display: flex;
+    justify-content: center;
+    float: right;
+    width: 200px;
+    height: 50px;
+    margin: 26px 270px 0 0;
+    background: url(/public/img/landmark_img.png) no-repeat;
+    cursor: pointer;
+}
+
+.landmark:hover {
+    background: url(/public/img/landmark_img_on.png) no-repeat;
+}
+
+.main_building {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    text-align: center;
+    height: 143px;
+}
+
+.main_img {
+    display: table-cell;
+    left: 100px;
+}
+
+.page_tit {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.page_subtit {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.content {
+    max-width: 100%;
+}
+
+.tab_menu1 {
+    background: #0c4da2;
+}
+
+.tab_menu1>div {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    display: table;
+}
+
+.tab_menu1>div a:first-child {
+    border-left: 1px solid #3169b3;
+}
+
+.tab_menu1>div Link {
+    width: 100%;
+    table-layout: fixed;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: table;
+}
+
+.tab_menu1>div a {
+    display: table-cell;
+    width: 300px;
+    height: 60px;
+    line-height: 1.4;
+    box-sizing: border-box;
+    padding: 0 5px;
+    background: #0c4da2;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 100;
+    vertical-align: middle;
+    border-right: 1px solid #3169b3;
+}
+
+.tab_menu1>div a.on,
+.tab_menu1>div a:hover {
+    background: #fff;
+    color: #444;
+    border-right: 1px solid #ddd;
+}
+
+.sub_wrap {
+    position: relative;
+    margin: 60px auto 100px;
+    width: 1170px;
+    height: 860px;
+}
+
+.tit_wrap {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.location {
+    position: absolute;
+    top: -30px;
+    right: -25px;
+    font-size: 13px;
+    color: #999;
+}
+
+.location span {
+    display: block;
+    float: left;
+    padding: 0 15px 0 0;
+    margin-right: 10px;
+}
+
+.home {
+    position: relative;
+    width: 16px;
+    height: 14px;
+    background: url(/public/img/locationhome.png) no-repeat;
+}
+
+.location span:not(:first-child)::before {
+    content: "";
+    display: block;
+    position: relative;
+    float: left;
+    padding: 0 15px 0 0;
+    top: 5px;
+    right: 0;
+    width: 4px;
+    height: 7px;
+    background: url(/public/img/locationnext.png) no-repeat;
+}
+
+.tit {
+    color: #444;
+    font-size: 36px;
+    font-weight: 700;
+    display: block;
+    line-height: 1.4;
+}
+
+.tit a {
+    display: inline-block;
+    float: right;
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #dadada;
+    font-size: 0;
+    margin-right: -1px;
+    background: url(/public/img/btn-search.png) center no-repeat;
+}
+
+.text {
+    float: right;
+    box-sizing: border-box;
+    width: 230px;
+    height: 36px;
+    border: 1px solid #dadada;
+    background: #fff;
+    color: #999;
+    font-size: 12px;
+    padding: 0 15px;
+    line-height: 34px;
+}
+
+.subtit {
+    color: #666;
+    font-size: 16px;
+    margin-top: 5px;
+    line-height: 1.8;
+}
+
+.sub_contents {
+    margin-top: 0;
+    width: 100%;
+}
+
+.title_list {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #666;
+}
+
+.title_list>b {
+    color: #0c4da2;
+    font-weight: 700;
+}
+
+.list_table {
+    width: 100%;
+    border-top: 2px solid #0c4da2;
+    border-bottom: 1px solid #bdbdbd !important;
+}
+
+.list_table>thead>tr>th {
+    padding: 22px 0 22px;
+    border-bottom: 1px solid #bdbdbd;
+    font-size: 16px;
+    color: #1a1a1a;
+    font-weight: 700;
+}
+
+
+.list_table>tbody>tr>td {
+    padding: 13px 0 13px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.list_table>tbody>tr>td:nth-child(2) {
+    text-align: left;
+}
+
+.table_title>a {
+    padding: 13px 0 13px;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.page_area {
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+
+.page_area a {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    margin-left: 5px;
+    font-size: 14px;
+    line-height: 33px;
+    color: #999;
+    vertical-align: middle;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.btn_prev {
+    background: #fff url(/public/img/btn-page-prev.png) no-repeat 50% 50%;
+    margin-right: 15px;
+}
+
+.page_area strong {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    font-size: 14px;
+    line-height: 33px;
+    vertical-align: middle;
+    text-decoration: none;
+    border: 1px solid #1956a7;
+    color: #1956a7;
+}
+
+.btn_next {
+    background: #fff url(/public/img/btn-page-next.png) no-repeat 50% 50%;
+    margin-left: 15px;
+}
+
+.btn_last {
+    background: #fff url(/public/img/btn-page-last.png) no-repeat 50% 50%;
+    background-size: 11px auto;
+}
+
+.search_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 12px 298px 12px 297px;
+    background: #f3f3f3;
+}
+
+.select_wrap {
+    display: flex;
+    width: 160px;
+    height: 36px;
+}
+
+.select_box select {
+    bottom: 34px;
+    left: -1px;
+    width: 160px;
+    height: 36px;
+    border: 1px solid #dadada;
+    background-color: #fff;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.search_bar {
+    display: flex;
+}
+
+.search_bar a {
+    display: inline-block;
+    overflow: hidden;
+    width: 36px;
+    height: 36px;
+    margin-left: -1px;
+    font-size: 12px;
+    text-indent: -9999px;
+    box-sizing: border-box;
+    border: 1px solid #dadada;
+    background: url(/public/img/btn-search.png) center no-repeat;
+}
+
+.title_search {
+    box-sizing: border-box;
+    width: 370px;
+    height: 36px;
+    line-height: 34px;
+    padding: 0 15px;
+    color: #999;
+    font-size: 14px;
+    border: 1px solid #dadada;
+    background: #fff;
+}

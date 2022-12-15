@@ -1,0 +1,134 @@
+.footer {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    background-color: #f3f3f3;
+    overflow: hidden;
+    transform: translateY(0%);
+}
+
+.inner_footer {
+    position: relative;
+    max-width: 100%;
+    min-width: 0;
+    margin: 0 auto;
+    padding: 17px 40px 10px;
+    box-sizing: border-box;
+}
+
+.reference {
+    display: flex;
+    margin-bottom: 11px;
+}
+
+.reference li {
+    font-size: 12px;
+}
+
+.reference li:not(:first-child) {
+    margin-left: 15px;
+}
+
+.reference li a {
+    color: #666666;
+}
+
+.reference li:nth-child(2) a {
+    color: #0c4da2;
+}
+
+.certification {
+    width: 100%;
+    height: 34px;
+    margin: -5px 0 4px;
+}
+
+
+.certification>p {
+    display: inline-block;
+    color: #666;
+    font-size: 12px;
+    transform: translate(5%, -100%);
+}
+
+.inner_footer address {
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+}
+
+.tel {
+    padding-left: 14px;
+}
+
+.copyright {
+    display: inline-block;
+    padding-left: 23px;
+    font-size: 12px;
+    color: #999;
+}
+
+.footer_option {
+    display: flex;
+    position: absolute;
+    right: 2%;
+    bottom: 2px;
+    height: 70px;
+    padding: 18px 0;
+    box-sizing: border-box;
+}
+
+.sns {
+    display: flex;
+    margin-right: 20px;
+    width: 132px;
+}
+
+.sns li:not(:first-child) {
+    margin-left: 15px;
+}
+
+.sns li a {
+    overflow: hidden;
+    display: block;
+    width: 34px;
+    height: 34px;
+    text-indent: -999999px;
+}
+
+.sns .blog {
+    background: url(/public/img/blog-logo.png) no-repeat;
+
+}
+
+.sns .facebook {
+    background: url(/public/img/facebook-logo.png) no-repeat;
+
+}
+
+.sns .youtube {
+    background: url(/public/img/youtube-logo.png) no-repeat;
+
+}
+
+.content_select {}
+
+.select_wrap {
+    /* width: 216px;
+    height: 30px;
+    border: 1px solid #dadada;
+    background-color: #fff;
+    box-sizing: border-box; */
+}
+
+.select_box select {
+    bottom: 34px;
+    left: -1px;
+    width: 216px;
+    height: 30px;
+    border: 1px solid #dadada;
+    background-color: #fff;
+    box-sizing: border-box;
+    outline: none;
+}

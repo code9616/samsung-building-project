@@ -1,0 +1,438 @@
+@media screen and (max-width: 1000px) {}
+
+.container {
+    /* text-align: left;
+    width: 100%;
+    max-width: 1920px;
+    min-width: 1810px;
+    margin: 0 auto; */
+    overflow: hidden;
+}
+
+
+.sub_visual_building {
+    display: flex;
+    justify-content: center;
+    min-height: 275px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    margin: 0 auto;
+    background: url(/public/img/housing-mainimg.jpg) no-repeat center top;
+}
+
+.page_tit_wrap {
+    display: table-cell;
+}
+
+.landmark a {
+    display: flex;
+    justify-content: center;
+    float: right;
+    width: 200px;
+    height: 50px;
+    margin: 26px 270px 0 0;
+    background: url(/public/img/landmark_img.png) no-repeat;
+    cursor: pointer;
+}
+
+.landmark a:hover {
+    background: url(/public/img/landmark_img_on.png) no-repeat;
+}
+
+.main_building {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    text-align: center;
+    height: 143px;
+}
+
+.main_img {
+    display: table-cell;
+    left: 100px;
+}
+
+.page_tit {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.page_subtit {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.content {
+    max-width: 100%;
+}
+
+.tab_menu1 {
+    background: #0c4da2;
+}
+
+.tab_menu1>div {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    display: table;
+}
+
+.tab_menu1>div a:first-child {
+    border-left: 1px solid #3169b3;
+}
+
+.tab_menu1>div Link {
+    width: 206px;
+}
+
+.tab_menu1>div a {
+    display: table-cell;
+    height: 60px;
+    line-height: 1.4;
+    box-sizing: border-box;
+    padding: 0 5px;
+    background: #0c4da2;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 100;
+    vertical-align: middle;
+    border-right: 1px solid #3169b3;
+}
+
+.tab_menu1>div a.on,
+.tab_menu1>div a:hover {
+    background: #fff;
+    color: #444;
+    border-right: 1px solid #ddd;
+}
+
+.sub_wrap {
+    position: relative;
+    margin: 60px auto 100px;
+    width: 1170px;
+    height: 2260px;
+}
+
+.tit_wrap {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.location {
+    position: absolute;
+    top: -30px;
+    right: -25px;
+    font-size: 13px;
+    color: #999;
+}
+
+.location span {
+    display: block;
+    float: left;
+    padding: 0 15px 0 0;
+    margin-right: 10px;
+}
+
+.home {
+    position: relative;
+    width: 16px;
+    height: 14px;
+    background: url(/public/img/locationhome.png) no-repeat;
+}
+
+.location span:not(:first-child)::before {
+    content: "";
+    display: block;
+    position: relative;
+    float: left;
+    padding: 0 15px 0 0;
+    top: 5px;
+    right: 0;
+    width: 4px;
+    height: 7px;
+    background: url(/public/img/locationnext.png) no-repeat;
+}
+
+.tit {
+    color: #444;
+    font-size: 36px;
+    font-weight: 700;
+    display: block;
+    line-height: 1.4;
+}
+
+.tit a {
+    display: inline-block;
+    float: right;
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #dadada;
+    font-size: 0;
+    margin-right: -1px;
+    background: url(/public/img/btn-search.png) center no-repeat;
+}
+
+.text {
+    float: right;
+    box-sizing: border-box;
+    width: 230px;
+    height: 36px;
+    border: 1px solid #dadada;
+    background: #fff;
+    color: #999;
+    font-size: 12px;
+    padding: 0 15px;
+    line-height: 34px;
+}
+
+.subtit_img {
+    background: url(/public/img/subtit-img-raemian.jpg) no-repeat 0 8px;
+    padding-left: 135px;
+}
+
+.subtit {
+    color: #0c4da2;
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+.subtit_explain {
+    display: block;
+    margin-top: 5px;
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+}
+
+.tab_menu2 {
+    margin-top: 35px;
+}
+
+.tab_menu2>ul {
+    display: flex;
+    width: 100%;
+    max-width: 1170px;
+    border-right: 1px solid #ccc;
+}
+
+.tab_menu2>ul>li {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-right: 0;
+}
+
+.tab_menu2>ul>li>a {
+    display: block;
+    width: 585px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+}
+
+.tab_menu2>ul>li>a.on::before {
+    content: '';
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #f3f3f3;
+    z-index: -1;
+}
+
+.sub_content {
+    width: 100%;
+    margin: 40px 0 0 0;
+}
+
+.title_wrap {
+    float: right;
+    width: 290px;
+    text-align: left;
+    z-index: 1;
+    left: 833px;
+    position: absolute;
+}
+
+.title_length {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+
+.building_title {
+    margin-top: 20px;
+    line-height: 1;
+    font-size: 30px;
+    color: #444;
+    font-weight: 700;
+}
+
+.btn_portfolio {
+    margin-top: 40px;
+    border: 1px solid #0c4da2;
+    color: #0c4da2;
+    background: url(/public/img/btn_portfolio.png) no-repeat 90% 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 150px;
+    padding: 12px 60px 12px 15px;
+    position: relative;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.btn_portfolio:hover {
+    color: #fff;
+    background: #0c4da2 url(/public/img/btn_portfolio1.png) no-repeat 90% 16px;
+}
+
+/*  */
+
+/* .slide_content_slide {
+    width: 750px;
+    height: 460px;
+    background: url(/public/img/construct-building.jpg) no-repeat;
+}
+
+.slide_content_slide01 {
+    display: none;
+    flex-direction: row;
+    width: 750px;
+    height: 460px;
+    background: url(/public/img/construct-building1.jpg) no-repeat;
+} */
+
+.SubSlider9 {
+    width: 750px;
+    height: 460px;
+    background: url(/public/img/construct-building16.jpg) no-repeat;
+}
+
+
+
+.slide_list_khalifa {
+    width: 100%;
+}
+
+.text_title {
+    padding-top: 40px;
+    font-size: 20px;
+    color: #444;
+}
+
+.text_description {
+    margin-top: 20px;
+    width: 1170px;
+    height: 115px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+}
+
+.title_wrap_plaza {
+    float: left;
+    width: 387px;
+    margin-right: 38px;
+    text-align: right;
+}
+
+/* .slide_content_slide02 {
+    margin-left: 420px;
+    width: 750px;
+    height: 460px;
+    background: url(/public/img/construct-building2.jpg) no-repeat;
+}
+
+.slide_content_slide03 {
+    display: none;
+    flex-direction: row;
+    width: 750px;
+    height: 460px;
+    background: url(/public/img/construct-building3.jpg) no-repeat;
+} */
+
+.box_paper_plaza {
+    position: absolute;
+    bottom: 748px;
+    left: 0;
+    overflow: hidden;
+    width: 390px;
+}
+
+.slide_list_plaza {
+    margin-top: 70px;
+}
+
+.box_paper_plaza a:first-child {
+    margin: 10px 0 0 10px;
+    float: right;
+    position: relative;
+    width: 185px;
+    height: 113px;
+    background: url(/public/img/construct-building18.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box_paper_plaza a:last-child {
+    margin: 10px 0 0 10px;
+    float: right;
+    position: relative;
+    width: 185px;
+    height: 113px;
+    background: url(/public/img/construct-building17.jpg) no-repeat;
+    background-size: cover;
+}
+
+.text_description span {
+    font-weight: 700;
+}
+
+.box_paper_Vietnam a:first-child {
+    margin: 10px 0 0 10px;
+    float: right;
+    position: relative;
+    left: -156px;
+    top: 337px;
+    width: 185px;
+    height: 113px;
+    background: url(/public/img/construct-building19.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box_paper_Vietnam a:last-child {
+    margin: 10px 0 0 10px;
+    float: right;
+    position: relative;
+    left: 233px;
+    top: 337px;
+    width: 185px;
+    height: 113px;
+    background: url(/public/img/construct-building20.jpg) no-repeat;
+    background-size: cover;
+}
+
+.slide_list_Vietnam {
+    margin-top: 70px;
+}
+
+/*  */

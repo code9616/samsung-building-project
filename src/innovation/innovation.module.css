@@ -1,0 +1,409 @@
+@media(max-width: 3000px) {}
+
+.sub_visual_building {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 275px;
+    color: #fff;
+    text-align: center;
+    background: url(/public/img/innovation-mainimg.jpg) no-repeat center top;
+}
+
+
+
+.container {
+    /* display: table;
+    text-align: left;
+    width: 100%;
+    max-width: 1920px;
+    min-width: 1810px;
+    margin: 0 auto; */
+    overflow: hidden;
+}
+
+.page_tit_wrap {
+    display: table-cell;
+}
+
+.landmark a {
+    display: flex;
+    justify-content: center;
+    float: right;
+    width: 200px;
+    height: 50px;
+    margin: 26px 270px 0 0;
+    background: url(/public/img/landmark_img.png) no-repeat;
+    cursor: pointer;
+}
+
+.landmark a:hover {
+    background: url(/public/img/landmark_img_on.png) no-repeat;
+}
+
+.main_building {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    text-align: center;
+    height: 143px;
+}
+
+.main_img {
+    display: table-cell;
+    left: 100px;
+}
+
+.page_tit {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.page_subtit {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.content {
+    max-width: 100%;
+}
+
+.tab_menu1 {
+    background: #0c4da2;
+}
+
+.tab_menu1>div {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    display: table;
+}
+
+.tab_menu1>div a:first-child {
+    border-left: 1px solid #3169b3;
+}
+
+.tab_menu1>div Link {
+    width: 100%;
+    table-layout: fixed;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: table;
+}
+
+.tab_menu1>div a {
+    display: table-cell;
+    width: 300px;
+    height: 60px;
+    line-height: 1.4;
+    box-sizing: border-box;
+    padding: 0 5px;
+    background: #0c4da2;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 100;
+    vertical-align: middle;
+    border-right: 1px solid #3169b3;
+}
+
+.tab_menu1>div a.on,
+.tab_menu1>div a:hover {
+    background: #fff;
+    color: #444;
+    border-right: 1px solid #ddd;
+}
+
+.tab_menu2 {
+    border-bottom: 1px solid #ddd;
+}
+
+.tab_menu2>div {
+    text-align: center;
+    height: 51px;
+    box-sizing: border-box;
+    font-size: 0;
+    overflow: hidden;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: table;
+}
+
+.tab_menu2>div a {
+    display: table-cell;
+    width: 300px;
+    height: 60px;
+    line-height: 1.4;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.tab_menu2>div a.on,
+.tab_menu2>div a:hover {
+    background: #fff;
+    color: #0c4da2;
+    border-bottom: 3px solid #0c4da2;
+}
+
+.sub_wrap {
+    position: relative;
+    margin: 60px auto 100px;
+    width: 1170px;
+    height: 2200px;
+}
+
+.tit_wrap {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.location {
+    position: absolute;
+    top: -30px;
+    right: -25px;
+    font-size: 13px;
+    color: #999;
+}
+
+.location span {
+    display: block;
+    float: left;
+    padding: 0 15px 0 0;
+    margin-right: 10px;
+}
+
+.home {
+    position: relative;
+    width: 16px;
+    height: 14px;
+    background: url(/public/img/locationhome.png) no-repeat;
+}
+
+.location span:not(:first-child)::before {
+    content: "";
+    display: block;
+    position: relative;
+    float: left;
+    padding: 0 15px 0 0;
+    top: 5px;
+    right: 0;
+    width: 4px;
+    height: 7px;
+    background: url(/public/img/locationnext.png) no-repeat;
+}
+
+.tit {
+    color: #444;
+    font-size: 36px;
+    font-weight: 700;
+    display: block;
+    line-height: 1.4;
+}
+
+.tit a {
+    display: inline-block;
+    float: right;
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #dadada;
+    font-size: 0;
+    margin-right: -1px;
+    background: url(/public/img/btn-search.png) center no-repeat;
+}
+
+.text {
+    float: right;
+    box-sizing: border-box;
+    width: 230px;
+    height: 36px;
+    border: 1px solid #dadada;
+    background: #fff;
+    color: #999;
+    font-size: 12px;
+    padding: 0 15px;
+    line-height: 34px;
+}
+
+.subtit_explain {
+    display: block;
+    margin-top: 5px;
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+}
+
+.sub_contents {
+    margin-top: 0px;
+    width: 100%;
+}
+
+.tech_study_contents {
+    margin-top: 40px;
+}
+
+.tech_list {
+    margin-top: 16px;
+    border-top: 1px solid #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.list_wrap {
+    padding: 30px 20px;
+}
+
+.list_contents {
+    display: table;
+}
+
+.img_box {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.tech_innovate1 {
+    width: 350px;
+    height: 214px;
+    background: url(/public/img/tech-innovate1.jpg) no-repeat;
+}
+
+.text_box {
+    margin-left: 40px;
+}
+
+
+.text_box>strong {
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    color: #444;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.text_box>p {
+    color: #666;
+    font-size: 16px;
+    line-height: 28px;
+    word-break: keep-all;
+}
+
+.text_box>ul {
+    margin-top: 6px;
+}
+
+.text_box>ul>li {
+    padding: 0 0 0 11px;
+    color: #666;
+    font-size: 16px;
+    line-height: 28px;
+    background: url(/public/img/innovation-dot.jpg) no-repeat 0 50%;
+}
+
+.list_wrap:nth-child(2) {
+    padding: 30px 20px;
+    border-top: 1px solid #ddd;
+}
+
+.vertical_img {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 245px;
+    font-size: 0;
+}
+
+.vertical_img>div:first-child {
+    width: 170px;
+    height: 214px;
+}
+
+.tech_innovate2 {
+    width: 170px;
+    height: 214px;
+    background: url(/public/img/tech-innovate2.jpg) no-repeat;
+}
+
+.vertical_img>div:last-child {
+    margin-left: 10px;
+}
+
+.img_box span {
+    display: block;
+    margin-top: 12px;
+    color: #666;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.tech_innovate3 {
+    width: 170px;
+    height: 214px;
+    background: url(/public/img/tech-innovate3.jpg) no-repeat;
+}
+
+.list_wrap:nth-child(3) {
+    border-top: 1px solid #ddd;
+}
+
+.tech_innovate4 {
+    width: 350px;
+    height: 214px;
+    background: url(/public/img/tech-innovate4.jpg) no-repeat;
+}
+
+.list_wrap:nth-child(4) {
+    border-top: 1px solid #ddd;
+}
+
+.tech_innovate5 {
+    width: 350px;
+    height: 214px;
+    background: url(/public/img/tech-innovate5.jpg) no-repeat;
+}
+
+.list_wrap:nth-child(5) {
+    border-top: 1px solid #ddd;
+}
+
+.tech_innovate6 {
+    width: 170px;
+    height: 214px;
+    background: url(/public/img/tech-innovate6.jpg) no-repeat;
+}
+
+.tech_innovate7 {
+    width: 170px;
+    height: 214px;
+    background: url(/public/img/tech-innovate7.jpg) no-repeat;
+}
+
+.list_wrap:nth-child(6) {
+    border-top: 1px solid #ddd;
+}
+
+.tech_innovate8 {
+    width: 350px;
+    height: 214px;
+    background: url(/public/img/tech-innovate8.jpg) no-repeat;
+}
+
+.list_wrap:nth-child(7) {
+    border-top: 1px solid #ddd;
+}
+
+.tech_innovate9 {
+    width: 350px;
+    height: 214px;
+    background: url(/public/img/tech-innovate9.jpg) no-repeat;
+}

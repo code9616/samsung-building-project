@@ -1,0 +1,29 @@
+.slider_list {
+    width: 100%;
+}
+
+.slider_one {
+    width: 760px;
+    height: 460px;
+    margin: 0 auto;
+    color: #fff;
+    background: url(/public/img/construct-building10.jpg) no-repeat;
+    object-fit: none;
+    /* text-align: center; */
+}
+
+.slider_two {
+    width: 760px;
+    height: 460px;
+    margin: 0 auto;
+    color: #fff;
+    background: url(/public/img/construct-building11.jpg) no-repeat;
+    background-size: 760px 460px;
+}
+
+.title_box_one,
+.title_box_two {
+    position: relative;
+    top: 190px;
+    left: 2158px;
+}
